@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Todo App</title>
+  <link rel="stylesheet" href="style.ee599408c98c4d59996c.css?2cfe48c13c5c9a9d2aad" />
+</head>
+
+<body>
+  <div class="container min-w-xs">
+
+    <h1 class="center">TO-DO LIST</h1>
+
+    <div id="todo-container">
+
+      <ul id="todo-list" class="todos center"></ul>
+
+      <form name="create-todo" class="container bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 max-w-md">
+        <div class="mb-2">
+          <label for="title" class="block">title</label>
+          <input class="input full-width" required name="title" type="text" maxlength="100" placeholder="name your activtiy">
+        </div>
+
+        <div class="mb-2">
+          <label for="description" class="block">description</label>
+          <textarea class="input full-width" required name="description" type="text" maxlength="500"
+            placeholder="describe it..."></textarea>
+        </div>
+
+        <div class="mb-2">
+          <label>
+            <label for="expiryDate" class="block">exipration date</label>
+            <input class="input full-width" required name="expiryDate" type="date" placeholder="">
+          </label>
+        </div>
+
+        <div class="mb-2">
+          <label for="status" class="block">status</label>
+          <select class="input full-width" name="status">
+            <option value="ENTERED">entered</option>
+            <option value="INPROCESS">in process</option>
+            <option value="COMPLETED">completed</option>
+          </select>
+        </div>
+
+        <div>
+          <button class="full-width" name="" type="submit">Save</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="main.aeb63b382bad7d6a0029.js?2cfe48c13c5c9a9d2aad"></script>
+</body>
+</html>
+
+<style>
+  .container {
+    width: 66%;
+    margin: 0 auto;
+  }
+
+  .todos {
+    height: 25vh;
+    overflow-y: auto;
+  }
+</style>
