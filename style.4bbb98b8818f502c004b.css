@@ -385,20 +385,16 @@ template {
 	min-width: 20rem;
 }
 
-.max-w-md {
-	max-width: 28rem;
+.min-w-sm {
+	min-width: 24rem;
 }
 
 .max-w-lg {
-	max-width: 32rem;
-}
-
-.max-w-xl {
 	max-width: 28rem;
 }
 
-.mb-2 {
-	margin-bottom: 1rem;
+.max-w-xl {
+	max-width: 32rem;
 }
 
 .px-3 {
@@ -411,6 +407,11 @@ template {
 	padding-bottom: 0.5rem;
 }
 
+.pv-4 {
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
 .pv-6 {
 	padding-left: 1.5rem;
 	padding-right: 1.5rem;
@@ -419,6 +420,18 @@ template {
 .mh-2 {
 	margin-top: 0.5rem;
 	margin-bottom: 0.5rem;
+}
+
+.mr-5 {
+	margin-right: 1.25rem;
+}
+
+.ml-5 {
+	margin-left: 1.25rem;
+}
+
+.mb-2 {
+	margin-bottom: 1rem;
 }
 
 .px-8 {
@@ -432,14 +445,6 @@ template {
 
 .pt-6 {
 	padding-top: 1.5rem;
-}
-
-.mr-5 {
-	margin-right: 1.25rem;
-}
-
-.ml-5 {
-	margin-left: 1.25rem;
 }
 
 .f-1 {
@@ -5152,4 +5157,4 @@ readers do not read off random characters that represent icons */
   font-weight: 900; }
 
 
-/*# sourceMappingURL=style.21ba8956ff33026af62b.css.map*/
+/*# sourceMappingURL=style.4bbb98b8818f502c004b.css.map*/
