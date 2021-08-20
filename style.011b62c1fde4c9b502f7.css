@@ -536,6 +536,10 @@ ul {
 	background-color: white;
 }
 
+.hidden {
+	visibility: hidden;
+}
+
 .danger-color {
 	color: #c0392b;
 }
@@ -5157,4 +5161,4 @@ readers do not read off random characters that represent icons */
   font-weight: 900; }
 
 
-/*# sourceMappingURL=style.4bbb98b8818f502c004b.css.map*/
+/*# sourceMappingURL=style.011b62c1fde4c9b502f7.css.map*/
