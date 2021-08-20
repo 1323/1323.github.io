@@ -358,6 +358,19 @@ template {
 	display: flex;
 }
 
+.dir-col {
+	flex-direction: column;
+}
+
+.justify-content {
+	align-content: center;
+	justify-content: space-around;
+}
+
+.justify-center {
+	justify-content: center;
+}
+
 .center {
 	text-align: center;
 }
@@ -468,6 +481,7 @@ html {
 
 ul {
 	list-style-type: none;
+	padding: 0;
 }
 
 .icon-button {
@@ -482,6 +496,10 @@ ul {
 	font-size: 1rem;
 	margin: 0.25rem;
 	padding: 0.5rem;
+}
+
+.textarea-horizontal {
+	resize: horizontal;
 }
 
 .danger-color {
@@ -5104,3 +5122,5 @@ readers do not read off random characters that represent icons */
   font-family: 'Font Awesome 5 Free';
   font-weight: 900; }
 
+
+/*# sourceMappingURL=style.f6d23de6e7f2698b9fa8.css.map*/
