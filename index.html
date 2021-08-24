@@ -1,67 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <meta name="description" content="Todo app without external api integration">
-  <meta name="keywords" content="HTML, CSS, JavaScript">
-  <title>Todo App</title>
-  <link rel="stylesheet" href="style.e5a4944b3a071ecdf4ce.css?492690c44315d0b7fe1b" />
-</head>
-
-<body>
-  <div>
-    <h1 class="center">TO-DO LIST</h1>
-
-    <div id="todo-container" class="min-w-sm container dir-col align-center hidden">
-
-      <ul id="todo-list" class="todos pv-4 max-w-xl full-width"></ul>
-
-      <form name="create-todo" class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 max-w-xl full-width">
-        <div class="mb-2">
-          <label for="title" class="block">title</label>
-          <input class="input full-width" required name="title" type="text" maxlength="100"
-            placeholder="name your activtiy">
-        </div>
-
-        <div class="mb-2">
-          <label for="description" class="block">description</label>
-          <textarea class="input full-width" required name="description" type="text" maxlength="500"
-            placeholder="describe it..."></textarea>
-        </div>
-
-        <div class="mb-2">
-          <label>
-            <label for="expiryDate" class="block">exipration date</label>
-            <input class="input full-width" required name="expiryDate" type="date" placeholder="">
-          </label>
-        </div>
-
-        <div class="mb-2">
-          <label for="status" class="block">status</label>
-          <select class="input full-width" name="status">
-            <option value="ENTERED">entered</option>
-            <option value="INPROCESS">in process</option>
-            <option value="COMPLETED">completed</option>
-          </select>
-        </div>
-
-        <div>
-          <button class="input full-width cursor-pointer" name="" type="submit">Save</button>
-        </div>
-      </form>
-    </div>
-  </div>
-
-  <script src="main.59374fa23ee44179a1e1.js?492690c44315d0b7fe1b"></script>
-</body>
-
-</html>
-
-<style>
-  .container {
+<!doctype html><html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta http-equiv="X-UA-Compatible" content="ie=edge"/><meta name="description" content="Todo app without external api integration"><meta name="keywords" content="HTML, CSS, JavaScript"><title>Todo App</title><link href="style.aa7b5ac2463ade776fcd.css?85a9b850b8b8966fac94" rel="stylesheet"></head><body><div><h1 class="center">TO-DO LIST</h1><div id="todo-container" class="min-w-sm container dir-col align-center hidden"><ul id="todo-list" class="todos pv-4 max-w-xl full-width"></ul><form name="create-todo" class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 max-w-xl full-width"><div class="mb-2"><label for="title" class="block">title</label> <input class="input full-width" required name="title" maxlength="100" placeholder="name your activtiy"></div><div class="mb-2"><label for="description" class="block">description</label> <textarea class="input full-width" required name="description" type="text" maxlength="500" placeholder="describe it..."></textarea></div><div class="mb-2"><label><label for="expiryDate" class="block">exipration date</label> <input class="input full-width" required name="expiryDate" type="date" placeholder=""></label></div><div class="mb-2"><label for="status" class="block">status</label> <select class="input full-width" name="status"><option value="ENTERED">entered</option><option value="INPROCESS">in process</option><option value="COMPLETED">completed</option></select></div><div><button class="input full-width cursor-pointer" name="" type="submit">Save</button></div></form></div></div><script defer="defer" src="app.6027c9a5ba9f115d1f18.js?85a9b850b8b8966fac94"></script><script defer="defer" src="polyfils.d8e5c84a35b1f665e851.js?85a9b850b8b8966fac94"></script></body></html><style>.container {
     width: 66%;
     margin: 0 auto;
   }
@@ -69,5 +6,4 @@
   .todos {
     height: 25vh;
     overflow-y: auto;
-  }
-</style>
+  }</style>
